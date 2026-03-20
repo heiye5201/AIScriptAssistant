@@ -20,7 +20,8 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*/*home/*"
+        "https://space-o74jhl.w.eolink.com/*",
+        "https://eolinker.lfsz.codefriend.top/*"
       ],
       "js": [
         "assets/content-script.js"
@@ -38,7 +39,8 @@
         "prompts/eolink-rules.md"
       ],
       "matches": [
-        "*://*/*"
+        "https://space-o74jhl.w.eolink.com/*",
+        "https://eolinker.lfsz.codefriend.top/*"
       ]
     }
   ],
